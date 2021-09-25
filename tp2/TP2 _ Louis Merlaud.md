@@ -330,7 +330,7 @@ subnet 10.2.1.0 netmask 255.255.255.0 {
     option broadcast-address 10.2.1.255;
     # specify gateway
     option routers 10.2.1.11;
-} details.
+}
 ```
 
 on autorise le service dhcp sur le parre-feu : 
