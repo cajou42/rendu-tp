@@ -374,7 +374,6 @@ Last login: Thu Sep 23 17:15:05 2021
     inet6 fe80::a00:27ff:fe7e:d934/64 scope link
        valid_lft forever preferred_lft forever
 ```
-nmtui
 
 on rajoute les lignes `option domain-name-servers 1.1.1.1;` et `option route default;` dans `dhcpd.conf`
 
