@@ -636,7 +636,7 @@ tableau d'adressage :
 
 schéma du réseau : 
 
-![Image](https://github.com/cajou42/rendu-tp/blob/main/reseau/tp3/r%C3%A9seau%20Diagram.drawio.png?raw=true)
+![Image](https://github.com/cajou42/rendu-tp/blob/main/reseau/tp3/supplements/r%C3%A9seau%20Diagram.drawio.png)
 
 fichier de conf supplémentaire : 
 
