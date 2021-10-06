@@ -1,0 +1,16 @@
+$TTL 86400
+@ IN SOA dns1.server2.tp3 root.server2.tp3. (
+    2019061800 ;Serial
+    3600 ;Refresh
+    1800 ;Retry
+    604800 ;Expire
+    86400 ;Minimum TTL
+)
+
+;Name Server Information
+@ IN NS dns1.server1.tp3.
+
+;A Record for IP address to Hostname
+router IN A 10.3.0.78
+web1 IN A 10.3.0.66
+nfs1 IN A 10.3.0.67
