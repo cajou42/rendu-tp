@@ -1,0 +1,10 @@
+[Unit]
+Description=Periodically run our TP2 database backup script
+Requires=tp2_backup_db.service
+
+[Timer]
+Unit=tp2_backup_db.service
+OnCalendar=Mon-Sun *-*-* 03:30:00
+
+[Install]
+WantedBy=timers.target

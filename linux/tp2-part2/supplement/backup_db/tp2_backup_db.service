@@ -1,0 +1,11 @@
+[Unit]
+Description=backup for the database (TP2)
+
+[Service]
+ExecStart=/srv/tp2_backup_db.sh /srv/backup nextcloud
+Type=oneshot
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
+
