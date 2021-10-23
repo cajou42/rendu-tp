@@ -384,7 +384,7 @@ total size is 320  speedup is 0.67
 [louis@backup backup]$ ls
 backup_tp2_211014_150225.tar.gz  backup_tp2_211014_150416.tar.gz    #ici on a donc le backup de "oui" et de "/srv/oui"
 ```
-[script](https://github.com/cajou42/rendu-tp/blob/main/linux/tp2-part2/supplement/tp2_backup.sh)
+[script](https://github.com/cajou42/rendu-tp/blob/main/linux/tp2-part2/supplement/backup_web/tp2_backup.sh)
 
 ### 4. Unité de service
 
@@ -479,7 +479,7 @@ RemainAfterExit=no
 [Install]
 WantedBy=multi-user.target
 ```
-[tp2_backup.service](https://github.com/cajou42/rendu-tp/blob/main/linux/tp2-part2/supplement/tp2_backup.service)
+[tp2_backup.service](https://github.com/cajou42/rendu-tp/blob/main/linux/tp2-part2/supplement/backup_web/tp2_backup.service)
 
 fichier du timer : 
 ```
@@ -496,7 +496,7 @@ OnCalendar=Mon-Sun *-1-31 03:15:00
 [Install]
 WantedBy=timers.target
 ```
-[tp2_backup.timer](https://github.com/cajou42/rendu-tp/blob/main/linux/tp2-part2/supplement/tp2_backup.timer)
+[tp2_backup.timer](https://github.com/cajou42/rendu-tp/blob/main/linux/tp2-part2/supplement/backup_web/tp2_backup.timer)
 
 véfification du timer : 
 ```
