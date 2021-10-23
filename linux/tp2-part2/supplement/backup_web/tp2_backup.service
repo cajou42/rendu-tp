@@ -1,0 +1,12 @@
+#!/bin/bash
+[Unit]
+Description=Our own lil backup service (TP2)
+
+[Service]
+ExecStart=/srv/tp2_backup.sh /srv/backup /var/www/sub-domains/com.web.nextcloud
+Type=oneshot
+RemainAfterExit=no
+
+[Install]
+WantedBy=multi-user.target
+
