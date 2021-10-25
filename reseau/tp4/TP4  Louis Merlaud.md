@@ -1232,18 +1232,8 @@ subnet 10.3.3.0 netmask 255.255.255.0 {
 }
 ```
 
-on modifie quelque paramètres sur le router : 
-```
-R1#conf t
-Enter configuration commands, one per line.  End with CNTL/Z.
-R1(config)#ip dhcp pool LANPOOL
-R1(dhcp-config)#network 103.3.3.0 255.255.255.0
-R1(dhcp-config)#lease 2
-R1(dhcp-config)#default-router 10.3.3.254
 
-```
 
-on met en place le dhcp et on récupère une ip en dhcp depuis les vpcs :  
-```
+on met en place le dhcp et on récupère une ip en dhcp depuis les vpcs
 
-```
+je n'ai pas réussit à faire cette partie.
