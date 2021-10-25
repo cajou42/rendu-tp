@@ -285,7 +285,7 @@ Port        Vlans in spanning tree forwarding state and not pruned
 Gi1/0       11-13
 ```
 
-on definie plusieur ip sur une même interface du router : 
+on definie plusieurs ip sur une même interface du router : 
 ```
 R1(config)#interface fastEthernet 0/0.11
 R1(config-subif)#encapsulation dot1Q 11
@@ -419,7 +419,7 @@ PC1> ping 10.3.3.1
 
 ### 3. Setup topologie 4
 
-on définit une adresse danamique sur l'interface du router relié au cloud : 
+on définit une adresse dynamique sur l'interface du router relié au cloud : 
 ```
 R1#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
