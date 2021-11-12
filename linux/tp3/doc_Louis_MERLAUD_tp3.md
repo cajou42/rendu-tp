@@ -1,16 +1,16 @@
 # TP3 : Your own shiet
 
 ## sommaire : 
-- [présentation du projet] 
-- [installation du serveur web avec apache] 
-- [installation du proxy avec nginx] 
-    * [conf principale d'nginx]
-    * [mise en place du protocole https]
-    * [amélioration du https ]
-    * [Loadbalancing]
+- présentation du projet 
+- installation du serveur web avec apache 
+- installation du proxy avec nginx 
+    * conf principale d'nginx
+    * mise en place du protocole https
+    * amélioration du https
+    * Loadbalancing
 - monitoring 
 - firewall
-
+- script
 
 ## présentation du projet : 
 Ce projet à pour but d'éberger un serveur web générant simplement un mot de passe. 
