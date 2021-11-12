@@ -309,3 +309,7 @@ ssh (active)
 ---
 
 ### script : 
+
+[script reverse proxy](https://github.com/cajou42/rendu-tp/blob/main/linux/tp3/supplement/script_proxy.sh)
+
+[script serveur web](https://github.com/cajou42/rendu-tp/blob/main/linux/tp3/supplement/script_serveur_web.sh)
