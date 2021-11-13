@@ -11,6 +11,7 @@
 - monitoring 
 - firewall
 - script
+- tableau du reseau
 
 ## présentation du projet : 
 Ce projet à pour but d'éberger un serveur web générant simplement un mot de passe. 
