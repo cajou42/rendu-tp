@@ -313,3 +313,15 @@ ssh (active)
 [script reverse proxy](https://github.com/cajou42/rendu-tp/blob/main/linux/tp3/supplement/script_proxy.sh)
 
 [script serveur web](https://github.com/cajou42/rendu-tp/blob/main/linux/tp3/supplement/script_serveur_web.sh)
+
+---
+
+## tableau du reseau
+
+| Machine            | IP            | Service                 | Port ouvert         | IPs autorisées                |
+|--------------------|---------------|-------------------------|---------------------|-------------------------------|
+| `web1.tp3.linux`   | `10.15.1.2/24`| Serveur Web             | 80/tcp 19999/tcp    | 10.15.1.3/32                  |
+| `proxy.tp3.linux`  | `10.15.1.3/24`| Reverse Proxy           | 443/tcp 19999/tcp   | 10.15.1.0/24                  |
+| `web2.tp3.linux`   | `10.15.1.4/24`| Serveur Web             | 80/tcp 19999/tcp    | 10.15.1.3/32                  |
+
+
